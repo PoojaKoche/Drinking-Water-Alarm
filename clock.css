@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url('bg.gif');
+}
+#clock {
+    float: left;
+    width: 490px;
+    margin-left: 350px;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 85px;
+    color: white;
+    border: 1px solid cyan;
+    border-radius: 50px;
+    border-width: 5px;
+    letter-spacing: 1px;
+    font-family: 'Akaya Kanadaka', cursive;
+    box-shadow: 0 5px 20px 0 cyan inset, 0 5px 20px 0 cyan,
+                0 5px 20px 0 cyan inset, 0 0 0 0 cyan;  
+}
+#ampm {
+    position: absolute;
+    color: white;
+    left: 743px;
+    top: 50px;
+    font-size: 80px;
+    letter-spacing: 1px;
+    font-family: 'Akaya Kanadaka', cursive; 
+}
+#date{
+    float: right;
+    font-size: 30px;
+    color: white;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+#alarm {
+    position: absolute;
+    left: 475px;
+    top: 270px;
+    color: black;
+}
+#para {
+    float: left;
+    padding: 20px;
+    margin-left: 420px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Ultra', serif;
+}
+.buttons {
+    position: absolute;
+    left: 378px;
+    top: 315px;
+}
+#setAlarm {
+    border-radius: 10px;
+    margin-left: 83px;
+    padding: 0px 16px;
+    font-size: 22px;
+    font-family: 'Akaya Kanadaka', cursive;
+    border: 2px solid cyan;
+    background-color: cyan;
+    box-shadow: 0 5px 20px 0 cyan inset, 0 5px 20px 0 cyan,
+             0 5px 20px 0 cyan inset, 0 5px 0 0 cyan;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+#stop{    
+    border-radius: 10px;
+    margin-left: 83px;
+    margin: 0 20px;
+    padding: 0px 16px;
+    font-size: 22px;
+    font-family: 'Akaya Kanadaka', cursive;
+    border: 2px solid cyan;
+    background-color: cyan;
+    box-shadow: 0 5px 20px 0 cyan inset, 0 5px 20px 0 cyan,
+                0 5px 20px 0 cyan inset, 0 5px 0 0 cyan;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+#setAlarm:hover{
+    border: 2px solid cyan;
+    background-color: transparent;
+    font-size: 22px;
+    border-width: 4px;
+    color: cyan;
+    box-shadow:none;
+}
+#stop:hover{
+    border: 2px solid cyan;
+    background-color: transparent;
+    font-size: 22px;
+    border-width: 4px;
+    color: cyan;
+    box-shadow: none;
+}
+#img {
+    margin-left: 100px;
+    height: 250px;
+    width: 250px;
+   
+}
